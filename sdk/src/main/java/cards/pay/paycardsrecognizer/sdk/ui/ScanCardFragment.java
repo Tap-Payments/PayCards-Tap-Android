@@ -67,7 +67,7 @@ public class ScanCardFragment extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         try {
-            mListener = (InteractionListener) getActivity();
+            mListener = (InteractionListener) context;
         } catch (ClassCastException ex) {
             throw new RuntimeException("Parent must implement " + InteractionListener.class.getSimpleName());
         }
