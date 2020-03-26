@@ -169,7 +169,7 @@ public final class InitLibraryFragment extends Fragment {
                 }
                 RecognitionCoreUtils.deployRecognitionCoreSync(appContext);
                 if (!RecognitionCore.getInstance(appContext).isDeviceSupported()) {
-                    throw new RecognitionUnavailableException();
+                    throw new RecognitionUnavailableException("ignore");
                 }
                 return null;
             } catch (RecognitionUnavailableException e) {
@@ -186,7 +186,7 @@ public final class InitLibraryFragment extends Fragment {
                     || fragment.mListener == null) return;
 
             fragment.mProgressBar.setVisibility(View.GONE);
-            if (lastError == null) {
+            if (lastError == null || lastError.getMessage().equals("ignore")) {
                 fragment.mListener.onInitLibraryComplete();
             } else {
                 fragment.mListener.onInitLibraryFailed(lastError);
