@@ -30,7 +30,7 @@ public final class InitLibraryFragment extends Fragment {
 
     public static final String TAG = "InitLibraryFragment";
 
-    private InteractionListener mListener;
+    public InteractionListener mListener;
 
     private static final int REQUEST_CAMERA_PERMISSION_CODE = 1;
 
