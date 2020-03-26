@@ -9,7 +9,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,7 +29,7 @@ public final class InitLibraryFragment extends Fragment {
 
     public static final String TAG = "InitLibraryFragment";
 
-    public InteractionListener mListener;
+    private InteractionListener mListener;
 
     private static final int REQUEST_CAMERA_PERMISSION_CODE = 1;
 
@@ -45,14 +44,10 @@ public final class InitLibraryFragment extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         try {
-            mListener = (InteractionListener) context;
+            mListener = (InteractionListener) getParentFragment();
         } catch (ClassCastException ex) {
             ex.printStackTrace();
         }
-    }
-
-    public void setInteractionListener(InteractionListener mListener) {
-        this.mListener = mListener;
     }
 
     @Nullable

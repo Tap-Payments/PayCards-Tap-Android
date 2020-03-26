@@ -59,7 +59,7 @@ public class ScanCardFragment extends Fragment {
 
     private int mCapturedSoundId = -1;
 
-    public InteractionListener mListener;
+    private InteractionListener mListener;
 
     private ScanCardRequest mRequest;
 
@@ -67,14 +67,10 @@ public class ScanCardFragment extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         try {
-            mListener = (InteractionListener) context;
+            mListener = (InteractionListener) getParentFragment();
         } catch (ClassCastException ex) {
             ex.printStackTrace();
         }
-    }
-
-    public void setInteractionListener(InteractionListener mListener) {
-        this.mListener = mListener;
     }
 
     @Override
