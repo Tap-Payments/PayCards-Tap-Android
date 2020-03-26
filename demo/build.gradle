@@ -8,7 +8,7 @@ if (rootProject.file('private.properties').exists()) {
 }
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion targetSdkVersion
 
     defaultConfig {
         applicationId "cards.pay.sample.demo"
@@ -18,6 +18,7 @@ android {
         versionName DEMO_APP_VERSION_NAME
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         resConfigs "en"
+        multiDexEnabled true
     }
     signingConfigs {
         release

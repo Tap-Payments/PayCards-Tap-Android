@@ -22,11 +22,11 @@ android {
         }
         multiDexEnabled true
     }
-externalNativeBuild {
+/*externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
         }
-    }
+    }*/
     buildTypes {
         release {
             minifyEnabled true
