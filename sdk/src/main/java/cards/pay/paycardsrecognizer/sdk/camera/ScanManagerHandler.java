@@ -17,7 +17,7 @@ import cards.pay.paycardsrecognizer.sdk.utils.Constants;
  * Receives messages from the renderer thread with UI-related updates, like the camera
  * parameters (which we show in a text message on screen).
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class ScanManagerHandler extends Handler {
     private static final boolean DBG = Constants.DEBUG;
     private static final String TAG = "ScanManagerHandler";

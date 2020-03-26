@@ -38,7 +38,7 @@ import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.RECOGNIZ
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.RECOGNIZER_MODE_NAME;
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.RECOGNIZER_MODE_NUMBER;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public class ScanCardFragment extends Fragment {
     @SuppressWarnings("unused")
     public static final String TAG = "ScanCardFragment";
@@ -69,8 +69,12 @@ public class ScanCardFragment extends Fragment {
         try {
             mListener = (InteractionListener) context;
         } catch (ClassCastException ex) {
-            throw new RuntimeException("Parent must implement " + InteractionListener.class.getSimpleName());
+            ex.printStackTrace();
         }
+    }
+
+    public void setInteractionListener(InteractionListener mListener) {
+        this.mListener = mListener;
     }
 
     @Override

@@ -27,7 +27,7 @@ import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.egl.EGLSurface;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class EglCore {
     private static final boolean DBG = GlUtil.DBG;
     private static final String TAG = GlUtil.TAG;

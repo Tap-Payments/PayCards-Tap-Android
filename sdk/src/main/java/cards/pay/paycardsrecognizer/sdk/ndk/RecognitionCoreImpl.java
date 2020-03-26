@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RestrictTo;
 import android.view.Display;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public interface RecognitionCoreImpl {
 
     void setStatusListener(@Nullable RecognitionStatusListener listener);

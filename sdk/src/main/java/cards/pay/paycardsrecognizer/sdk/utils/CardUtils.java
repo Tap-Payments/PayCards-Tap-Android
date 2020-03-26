@@ -4,7 +4,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RestrictTo;
 import android.text.TextUtils;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class CardUtils {
 
     private CardUtils() {}

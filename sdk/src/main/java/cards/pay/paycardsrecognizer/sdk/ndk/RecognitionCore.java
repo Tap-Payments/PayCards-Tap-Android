@@ -11,7 +11,7 @@ import android.view.Display;
 
 import java.io.IOException;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class RecognitionCore {
 
     private static volatile RecognitionCore sInstance;

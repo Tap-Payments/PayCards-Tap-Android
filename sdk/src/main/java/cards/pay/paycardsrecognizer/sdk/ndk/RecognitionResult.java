@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.annotation.RestrictTo;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class RecognitionResult implements Parcelable {
 
     @Nullable

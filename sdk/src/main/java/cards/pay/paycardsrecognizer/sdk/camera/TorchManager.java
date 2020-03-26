@@ -8,7 +8,7 @@ import cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore;
 import cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener;
 import cards.pay.paycardsrecognizer.sdk.utils.Constants;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class TorchManager {
 
     private static final boolean DBG = Constants.DEBUG;

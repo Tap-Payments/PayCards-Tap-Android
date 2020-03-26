@@ -35,7 +35,7 @@ import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.RECOGNIZ
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.RECOGNIZER_MODE_NAME;
 import static cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants.RECOGNIZER_MODE_NUMBER;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class ScanManager {
 
     private static final int DEFAULT_RECOGNITION_MODE = RECOGNIZER_MODE_NUMBER | RECOGNIZER_MODE_DATE

@@ -26,7 +26,7 @@ import cards.pay.paycardsrecognizer.sdk.utils.Constants;
 /**
  * Thread that handles all rendering and camera operations.
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class RenderThread extends Thread {
 
     private static final boolean DBG = Constants.DEBUG;

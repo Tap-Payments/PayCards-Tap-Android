@@ -21,7 +21,7 @@ import android.support.annotation.RestrictTo;
 /**
  * Base class for a 2d object.  Includes position, scale, rotation, and flat-shaded color.
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class Sprite2d {
     private Drawable2d mDrawable;
     private float mColor[];

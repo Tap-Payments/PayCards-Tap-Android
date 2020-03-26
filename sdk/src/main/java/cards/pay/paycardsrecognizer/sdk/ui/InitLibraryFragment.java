@@ -25,7 +25,7 @@ import cards.pay.paycardsrecognizer.sdk.camera.RecognitionUnavailableException;
 import cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout;
 import cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class InitLibraryFragment extends Fragment {
 
     public static final String TAG = "InitLibraryFragment";
@@ -47,8 +47,12 @@ public final class InitLibraryFragment extends Fragment {
         try {
             mListener = (InteractionListener) context;
         } catch (ClassCastException ex) {
-            throw new RuntimeException("Parent must implement " + ScanCardFragment.InteractionListener.class.getSimpleName());
+            ex.printStackTrace();
         }
+    }
+
+    public void setInteractionListener(InteractionListener mListener) {
+        this.mListener = mListener;
     }
 
     @Nullable

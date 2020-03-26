@@ -4,7 +4,7 @@ import android.support.annotation.RestrictTo;
 
 import java.io.IOException;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class BlockingOperationException extends IOException {
     public BlockingOperationException() {
     }

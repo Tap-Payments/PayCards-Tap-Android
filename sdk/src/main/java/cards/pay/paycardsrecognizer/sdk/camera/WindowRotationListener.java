@@ -12,7 +12,7 @@ import android.view.OrientationEventListener;
 
 import cards.pay.paycardsrecognizer.sdk.utils.Constants;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class WindowRotationListener {
 
     private static final String TAG = "WindowRotationListener";

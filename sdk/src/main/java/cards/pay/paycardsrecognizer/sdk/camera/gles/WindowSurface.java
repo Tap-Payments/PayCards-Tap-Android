@@ -37,7 +37,7 @@ import javax.microedition.khronos.egl.EGLSurface;
  * <p>
  * It's good practice to explicitly release() the surface, preferably from a "finally" block.
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class WindowSurface {
     protected static final String TAG = GlUtil.TAG;
     private static final boolean DBG = GlUtil.DBG;

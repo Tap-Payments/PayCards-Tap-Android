@@ -14,7 +14,7 @@ import cards.pay.paycardsrecognizer.sdk.utils.Constants;
 import static android.hardware.Camera.AutoFocusCallback;
 import static android.hardware.Camera.AutoFocusMoveCallback;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class AutoFocusManager {
 
     private static final boolean DBG = Constants.DEBUG;

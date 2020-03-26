@@ -18,7 +18,7 @@ import static android.hardware.Camera.getCameraInfo;
 import static android.hardware.Camera.getNumberOfCameras;
 import static android.hardware.Camera.open;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class CameraConfigurationUtils {
 
     private static final float MAX_EXPOSURE_COMPENSATION = 1.5f;

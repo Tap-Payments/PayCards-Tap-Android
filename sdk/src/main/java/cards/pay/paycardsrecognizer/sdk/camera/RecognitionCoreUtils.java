@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class RecognitionCoreUtils {
 
     private static AtomicBoolean deployRecognitionCoreActive = new AtomicBoolean();

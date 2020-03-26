@@ -19,7 +19,7 @@ import android.support.annotation.RestrictTo;
 
 import java.nio.FloatBuffer;
 
-@RestrictTo(RestrictTo.Scope.LIBRARY)
+
 public final class Drawable2d {
     private static final int SIZEOF_FLOAT = 4;
 
