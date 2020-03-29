@@ -33,17 +33,17 @@
       "abi": "armeabi-v7a",
       "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/cmake/debug/armeabi-v7a/caffe/libcaffe.a"
     },
-    "crossplatform-Debug-armeabi-v7a": {
-      "artifactName": "crossplatform",
-      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/cmake/debug/armeabi-v7a\" crossplatform",
-      "abi": "armeabi-v7a",
-      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/cmake/debug/armeabi-v7a/crossplatform/libcrossplatform.a"
-    },
     "cardrecognizer-Debug-armeabi-v7a": {
       "artifactName": "cardrecognizer",
       "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/cmake/debug/armeabi-v7a\" cardrecognizer",
       "abi": "armeabi-v7a",
       "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardrecognizer.so"
+    },
+    "crossplatform-Debug-armeabi-v7a": {
+      "artifactName": "crossplatform",
+      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/cmake/debug/armeabi-v7a\" crossplatform",
+      "abi": "armeabi-v7a",
+      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/cmake/debug/armeabi-v7a/crossplatform/libcrossplatform.a"
     },
     "protobuf-Debug-armeabi-v7a": {
       "artifactName": "protobuf",

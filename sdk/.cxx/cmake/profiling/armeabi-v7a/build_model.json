@@ -192,7 +192,8 @@
     "objFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/cmake/profiling/obj",
     "variantName": "profiling",
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A"
     ]
   }
 }
