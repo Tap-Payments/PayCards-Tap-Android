@@ -169,7 +169,6 @@
       "project": {
         "compilerSettingsCacheFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/.cxx",
         "cxxFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/.cxx",
-        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
