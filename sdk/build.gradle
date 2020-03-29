@@ -19,7 +19,6 @@ android {
                // abiFilters 'armeabi-v7a', "arm64-v8a", "x86",  "x86_64"
              //   abiFilters 'armeabi-v7a', "arm64-v8a"
                 arguments '-DANDROID_STL=c++_shared'
-
             }
             ndk {
                 // Specifies the ABI configurations of your native
@@ -27,22 +26,17 @@ android {
                 abiFilters 'armeabi-v7a', 'arm64-v8a'
             }
         }
-
-       /* ndk {
-            // Specifies the ABI configurations of your native
-            // libraries Gradle should build and package with your APK.
-            abiFilters 'armeabi-v7a', 'arm64-v8a'
-        }*/
         multiDexEnabled true
 
     }
-
-
+/*
 externalNativeBuild {
         cmake {
-            path "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt"
+            path "src/main/cpp/opencv2/CMakeLists.txt"
         }
     }
+*/
+
 
     buildTypes {
         release {
