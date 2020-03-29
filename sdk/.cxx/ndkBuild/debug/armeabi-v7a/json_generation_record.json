@@ -1,0 +1,56 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: armeabi-v7a",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/ndkBuild/debug/armeabi-v7a/build_command.txt, will remove stale json folder",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/.cxx/ndkBuild/debug/armeabi-v7a\u0027",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/ndkBuild/debug/lib\n-DANDROID_STL\u003dc++_shared\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/ndkBuild/debug/lib\n-DANDROID_STL\u003dc++_shared\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/ndk-build with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/build/intermediates/ndkBuild/debug/lib -DANDROID_STL\u003dc++_shared APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\n\n/Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/build/../prebuilt/darwin-x86_64/bin/make: invalid option -- D\n/Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/build/../prebuilt/darwin-x86_64/bin/make: invalid option -- A\n/Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/build/../prebuilt/darwin-x86_64/bin/make: invalid option -- N\n/Users/a.kazi/Library/Android/sdk/ndk/21.0.6113669/build/../prebuilt/darwin-x86_64/bin/make: invalid option -- D\nUsage: make [options] [target] ...\nOptions:\n  -b, -m                      Ignored for compatibility.\n  -B, --always-make           Unconditionally make all targets.\n  -C DIRECTORY, --directory\u003dDIRECTORY\n                              Change to DIRECTORY before doing anything.\n  -d                          Print lots of debugging information.\n  --debug[\u003dFLAGS]             Print various types of debugging information.\n  -e, --environment-overrides\n                              Environment variables override makefiles.\n  --eval\u003dSTRING               Evaluate STRING as a makefile statement.\n  -f FILE, --file\u003dFILE, --makefile\u003dFILE\n                              Read FILE as a makefile.\n  -h, --help                  Print this message and exit.\n  -i, --ignore-errors         Ignore errors from recipes.\n  -I DIRECTORY, --include-dir\u003dDIRECTORY\n                              Search DIRECTORY for included makefiles.\n  -j [N], --jobs[\u003dN]          Allow N jobs at once; infinite jobs with no arg.\n  -k, --keep-going            Keep going when some targets can\u0027t be made.\n  -l [N], --load-average[\u003dN], --max-load[\u003dN]\n                              Don\u0027t start multiple jobs unless load is below N.\n  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n  -n, --just-print, --dry-run, --recon\n                              Don\u0027t actually run any recipe; just print them.\n  -o FILE, --old-file\u003dFILE, --assume-old\u003dFILE\n                              Consider FILE to be very old and don\u0027t remake it.\n  -O[TYPE], --output-sync[\u003dTYPE]\n                              Synchronize output of parallel jobs by TYPE.\n  -p, --print-data-base       Print make\u0027s internal database.\n  -q, --question              Run no recipe; exit status says if up to date.\n  -r, --no-builtin-rules      Disable the built-in implicit rules.\n  -R, --no-builtin-variables  Disable the built-in variable settings.\n  -s, --silent, --quiet       Don\u0027t echo recipes.\n  -S, --no-keep-going, --stop\n                              Turns off -k.\n  -t, --touch                 Touch targets instead of remaking them.\n  --trace                     Print tracing information.\n  -v, --version               Print the version number of make and exit.\n  -w, --print-directory       Print the current directory.\n  --no-print-directory        Turn off -w, even if it was turned on implicitly.\n  -W FILE, --what-if\u003dFILE, --new-file\u003dFILE, --assume-new\u003dFILE\n                              Consider FILE to be infinitely new.\n  --warn-undefined-variables  Warn when an undefined variable is referenced.\n\nThis program built for x86_64-apple-darwin\nReport bugs to \u003cbug-make@gnu.org\u003e\n",
+    "file": "/Users/a.kazi/Documents/TapProjects/TapKits2020/TapPayCard/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a"
+  }
+]

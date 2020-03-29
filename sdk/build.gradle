@@ -16,23 +16,32 @@ android {
 
         externalNativeBuild {
             cmake {
-                abiFilters 'armeabi-v7a', "arm64-v8a", "x86",  "x86_64"
+               // abiFilters 'armeabi-v7a', "arm64-v8a", "x86",  "x86_64"
+                abiFilters 'armeabi-v7a'
                 arguments '-DANDROID_STL=c++_shared'
             }
         }
 
-        ndk {
+       /* ndk {
             // Specifies the ABI configurations of your native
             // libraries Gradle should build and package with your APK.
             abiFilters 'armeabi-v7a', 'arm64-v8a'
-        }
+        }*/
         multiDexEnabled true
+
     }
-/*externalNativeBuild {
+
+/*
+externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
         }
-    }*/
+    }
+*/ externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled true
@@ -66,7 +75,7 @@ dependencies {
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoVersion"
     implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibVersion"
     implementation "com.facebook.device.yearclass:yearclass:$rootProject.ext.yearclassVersion"
-    implementation 'cards.pay:paycardsrecognizer:1.1.0'
+
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
 }
 
