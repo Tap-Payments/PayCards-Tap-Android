@@ -75,3 +75,29 @@ afterEvaluate { project ->
         }
     }
 }
+
+ext {
+    bintrayRepo = 'PayCards-Tap-Android' // Repo name in bintray dashboard
+    bintrayName = 'cards.pay.tap.android' // package name of the bintray repo
+
+    publishedGroupId = 'company.tap'   // this is the ID we want to see in implementation line
+    libraryName = 'sdk'     // this is the module name of library
+    artifact = 'PayCards-Tap-Android'        // this is the artifact we want to see in implementation line
+
+    libraryDescription = 'Fork from Pay.Cards with inline view fragment' // description of library
+
+    siteUrl = 'https://github.com/Tap-Payments/PayCards-Tap-Android'    // git repo url
+    gitUrl = 'https://github.com/Tap-Payments/PayCards-Tap-Android.git' // git repo vcs url
+
+    libraryVersion = '0.0.1'      // library version
+
+    developerId = 'mario-gamal'                // This is your bintray username
+    developerName = 'Mario Gamal'              // Developer's name
+    developerEmail = 'm.gamal@tap.company'                // Developer's email
+
+    licenseName = 'The Apache Software License, Version 2.0'  // for example, The Apache Software License, Version 2.0
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'   // for example, http://www.apache.org/licenses/LICENSE-2.0.txt
+    allLicenses = ["Apache-2.0"]    // array of licenses, for example, ["Apache-2.0"]
+}
+
+apply from: 'publish.gradle'
