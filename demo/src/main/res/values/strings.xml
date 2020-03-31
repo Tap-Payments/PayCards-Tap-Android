@@ -22,5 +22,7 @@
     <string name="validation_error_fill_in_card_number">Fill in card number</string>
     <string name="validation_error_invalid_card_number">Invalid card number</string>
     <string name="scan">Scan card</string>
+    <string name="full_screen">Full Screen</string>
+    <string name="inline_view">Inline View</string>
 
 </resources>

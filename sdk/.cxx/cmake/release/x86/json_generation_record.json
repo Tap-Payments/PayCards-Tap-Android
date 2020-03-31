@@ -1,0 +1,548 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/android_gradle_build.json due to:",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/build_command.txt, will remove stale json folder",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86\u0027",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86\u0027",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003dx86\n-DANDROID_NDK\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DCMAKE_ANDROID_NDK\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/release/obj/x86\n-DCMAKE_MAKE_PROGRAM\u003d/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_STL\u003dc++_shared\n-B/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp\",\n  \"buildDirectory\": \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86\",\n    \"-DANDROID_NDK\\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/release/obj/x86\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_STL\\u003dc++_shared\"\n  ]\n}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenCV: /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2 (found version \\\"3.4.3\\\") found components:  opencv_objdetect opencv_imgcodecs opencv_imgproc opencv_ml opencv_core \",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Found OpenCV: /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2 (found version \"3.4.3\") found components:  opencv_objdetect opencv_imgcodecs opencv_imgproc opencv_ml opencv_core ",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":914,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":928,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":942,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":957,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":971,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":985,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Configuring done",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"compute\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":142,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":285,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":428,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":571,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":714,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":857,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Generating done",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"cmakeInputs\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/BasicConfigVersion-SameMajorVersion.cmake.in\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake\",\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake\",\"armneon2x86sse/CMakeLists.txt\",\"armneon2x86sse/cmake/Config.cmake.in\",\"eigen/CMakeLists.txt\",\"protobuf/CMakeLists.txt\",\"caffe/CMakeLists.txt\",\"libyuv/CMakeLists.txt\",\"crossplatform/CMakeLists.txt\",\"opencv2/sdk/native/jni/OpenCVConfig-version.cmake\",\"opencv2/sdk/native/jni/OpenCVConfig.cmake\",\"opencv2/sdk/native/jni/abi-x86/OpenCVConfig.cmake\",\"opencv2/sdk/native/jni/abi-x86/OpenCVModules.cmake\",\"opencv2/sdk/native/jni/abi-x86/OpenCVModules-release.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.c\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/cmake/release/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp\",\"type\":\"reply\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"type\":\"codemodel\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/armneon2x86sse\",\"name\":\"NEON_2_SSE\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse\",\"targets\":[{\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/armneon2x86sse\",\"name\":\"NEON_2_SSE\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse\",\"type\":\"INTERFACE_LIBRARY\"}]},{\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp\",\"targets\":[{\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/armneon2x86sse\",\"name\":\"NEON_2_SSE\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse\",\"type\":\"INTERFACE_LIBRARY\"},{\"artifacts\":[\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/release/obj/x86/libcardrecognizer.so\"],\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC  \",\"defines\":[\"cardrecognizer_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/CV\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/NeuralNetwork\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/Public\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/Recognizer\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/Torch\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Torch\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/jniImpl\"},{\"isSystem\":true,\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/include\"},{\"isSystem\":true,\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/include/opencv\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/libyuv/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"CardRecognizer-jni.cpp\"]}],\"fullName\":\"libcardrecognizer.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack\",\"linkLibraries\":\"crossplatform/libcrossplatform.a libyuv/liblibyuv.a -llog -lz caffe/libcaffe.a protobuf/libprotobuf.a /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86/libopencv_objdetect.a /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86/libopencv_imgcodecs.a /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86/libopencv_imgproc.a /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86/libopencv_ml.a /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/staticlibs/x86/libopencv_core.a -llog -lz /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/3rdparty/libs/x86/libtbb.a -lc -ldl -lm /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/3rdparty/libs/x86/libcpufeatures.a -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"cardrecognizer\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp\",\"sysroot\":\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/eigen\",\"name\":\"eigen\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen\",\"type\":\"INTERFACE_LIBRARY\"},{\"artifacts\":[\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/protobuf/libprotobuf.a\"],\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/protobuf\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC -fvisibility\u003dhidden -fvisibility-inlines-hidden   -frtti -fno-exceptions -Wno-enum-compare-switch -Wno-error\u003dreturn-type -Wno-null-conversion -Wno-sign-compare -Wno-sign-promo -Wno-tautological-constant-compare -Wno-tautological-undefined-compare -Wno-unused-parameter -std\u003dc++11\",\"includePath\":[{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/protobuf/GoogleProtobuf\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"GoogleProtobuf/google/protobuf/descriptor.cc\",\"GoogleProtobuf/google/protobuf/descriptor_database.cc\",\"GoogleProtobuf/google/protobuf/descriptor.pb.cc\",\"GoogleProtobuf/google/protobuf/dynamic_message.cc\",\"GoogleProtobuf/google/protobuf/extension_set.cc\",\"GoogleProtobuf/google/protobuf/extension_set_heavy.cc\",\"GoogleProtobuf/google/protobuf/generated_message_reflection.cc\",\"GoogleProtobuf/google/protobuf/generated_message_util.cc\",\"GoogleProtobuf/google/protobuf/io/coded_stream.cc\",\"GoogleProtobuf/google/protobuf/io/gzip_stream.cc\",\"GoogleProtobuf/google/protobuf/io/printer.cc\",\"GoogleProtobuf/google/protobuf/io/tokenizer.cc\",\"GoogleProtobuf/google/protobuf/io/zero_copy_stream.cc\",\"GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl.cc\",\"GoogleProtobuf/google/protobuf/io/zero_copy_stream_impl_lite.cc\",\"GoogleProtobuf/google/protobuf/message.cc\",\"GoogleProtobuf/google/protobuf/message_lite.cc\",\"GoogleProtobuf/google/protobuf/reflection_ops.cc\",\"GoogleProtobuf/google/protobuf/repeated_field.cc\",\"GoogleProtobuf/google/protobuf/service.cc\",\"GoogleProtobuf/google/protobuf/stubs/common.cc\",\"GoogleProtobuf/google/protobuf/stubs/once.cc\",\"GoogleProtobuf/google/protobuf/stubs/structurally_valid.cc\",\"GoogleProtobuf/google/protobuf/stubs/strutil.cc\",\"GoogleProtobuf/google/protobuf/stubs/substitute.cc\",\"GoogleProtobuf/google/protobuf/text_format.cc\",\"GoogleProtobuf/google/protobuf/unknown_field_set.cc\",\"GoogleProtobuf/google/protobuf/wire_format.cc\",\"GoogleProtobuf/google/protobuf/wire_format_lite.cc\"]}],\"fullName\":\"libprotobuf.a\",\"linkerLanguage\":\"CXX\",\"name\":\"protobuf\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/protobuf\",\"sysroot\":\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/caffe/libcaffe.a\"],\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/caffe\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC -fvisibility\u003dhidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3\",\"defines\":[\"CPU_ONLY\",\"USE_EIGEN\"],\"includePath\":[{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/caffe/Caffe\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/caffe/include\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/protobuf/GoogleProtobuf\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen/Eigen\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"Caffe/blob.cpp\",\"Caffe/common.cpp\",\"Caffe/layer_factory.cpp\",\"Caffe/layers/base_conv_layer.cpp\",\"Caffe/layers/base_data_layer.cpp\",\"Caffe/layers/bnll_layer.cpp\",\"Caffe/layers/concat_layer.cpp\",\"Caffe/layers/conv_layer.cpp\",\"Caffe/layers/eltwise_layer.cpp\",\"Caffe/layers/flatten_layer.cpp\",\"Caffe/layers/im2col_layer.cpp\",\"Caffe/layers/inner_product_layer.cpp\",\"Caffe/layers/loss_layer.cpp\",\"Caffe/layers/lrn_layer.cpp\",\"Caffe/layers/memory_data_layer.cpp\",\"Caffe/layers/neuron_layer.cpp\",\"Caffe/layers/pooling_layer.cpp\",\"Caffe/layers/power_layer.cpp\",\"Caffe/layers/relu_layer.cpp\",\"Caffe/layers/sigmoid_layer.cpp\",\"Caffe/layers/softmax_layer.cpp\",\"Caffe/layers/softmax_loss_layer.cpp\",\"Caffe/layers/split_layer.cpp\",\"Caffe/layers/tanh_layer.cpp\",\"Caffe/net.cpp\",\"Caffe/proto/caffe.pb.cc\",\"Caffe/syncedmem.cpp\",\"Caffe/util/im2col.cpp\",\"Caffe/util/insert_splits.cpp\",\"Caffe/util/io.cpp\",\"Caffe/util/math_functions.cpp\",\"Caffe/util/upgrade_proto.cpp\"]}],\"fullName\":\"libcaffe.a\",\"linkerLanguage\":\"CXX\",\"name\":\"caffe\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/caffe\",\"sysroot\":\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/libyuv/liblibyuv.a\"],\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/libyuv\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC -fvisibility\u003dhidden -fvisibility-inlines-hidden   -fno-exceptions -fno-rtti -Wall -O3\",\"includePath\":[{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/libyuv/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"source/compare.cc\",\"source/compare_common.cc\",\"source/compare_gcc.cc\",\"source/compare_mmi.cc\",\"source/compare_msa.cc\",\"source/compare_neon64.cc\",\"source/convert.cc\",\"source/convert_argb.cc\",\"source/convert_from.cc\",\"source/convert_from_argb.cc\",\"source/convert_to_argb.cc\",\"source/convert_to_i420.cc\",\"source/cpu_id.cc\",\"source/planar_functions.cc\",\"source/rotate.cc\",\"source/rotate_any.cc\",\"source/rotate_argb.cc\",\"source/rotate_common.cc\",\"source/rotate_gcc.cc\",\"source/rotate_mmi.cc\",\"source/rotate_msa.cc\",\"source/rotate_neon64.cc\",\"source/row_any.cc\",\"source/row_common.cc\",\"source/row_gcc.cc\",\"source/row_mmi.cc\",\"source/row_msa.cc\",\"source/row_neon64.cc\",\"source/scale.cc\",\"source/scale_any.cc\",\"source/scale_argb.cc\",\"source/scale_common.cc\",\"source/scale_gcc.cc\",\"source/scale_mmi.cc\",\"source/scale_msa.cc\",\"source/scale_neon64.cc\",\"source/video_common.cc\"]}],\"fullName\":\"liblibyuv.a\",\"linkerLanguage\":\"CXX\",\"name\":\"libyuv\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/libyuv\",\"sysroot\":\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/crossplatform/libcrossplatform.a\"],\"buildDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/crossplatform\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror\u003dformat-security   -O2 -DNDEBUG  -fPIC -fvisibility\u003dhidden -fvisibility-inlines-hidden   -marm -Wno-unused-command-line-argument -frtti -fexceptions -O3 -msse3 -Wno-unknown-attributes -Wno-deprecated-declarations -std\u003dc++11\",\"defines\":[\"CPU_ONLY\",\"HAVE_NEON_X86\u003d1\",\"USE_EIGEN\"],\"includePath\":[{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/CaffePredictor\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/CV\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/NeuralNetwork\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/Public\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/Recognizer\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Include/Torch\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Recognizer\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CrossPlatform/Torch\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/jniImpl\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen/Eigen\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/caffe/include\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/protobuf/GoogleProtobuf\"},{\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/libyuv/include\"},{\"isSystem\":true,\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/include\"},{\"isSystem\":true,\"path\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/include/opencv\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"CrossPlatform/CaffePredictor/CaffeDatum.cpp\",\"CrossPlatform/CaffePredictor/CaffeDatumList.cpp\",\"CrossPlatform/CaffePredictor/CaffeNeuralNetwork.cpp\",\"CrossPlatform/CaffePredictor/CaffeObjectFactory.cpp\",\"CrossPlatform/CaffePredictor/CaffeResult.cpp\",\"CrossPlatform/CaffePredictor/CaffeResultList.cpp\",\"CrossPlatform/CV/canny.cpp\",\"CrossPlatform/CV/hough.cpp\",\"CrossPlatform/CV/warp.cpp\",\"CrossPlatform/Recognizer/DateRecognizer.cpp\",\"CrossPlatform/Recognizer/EdgesDetector.cpp\",\"CrossPlatform/Recognizer/FrameStorage.cpp\",\"CrossPlatform/Recognizer/NameRecognizer.cpp\",\"CrossPlatform/Recognizer/NumberRecognizer.cpp\",\"CrossPlatform/Recognizer/RecognitionCore.cpp\",\"CrossPlatform/Recognizer/RecognitionResult.cpp\",\"CrossPlatform/Recognizer/Utils.cpp\",\"CrossPlatform/ServiceContainer.cpp\",\"CrossPlatform/Torch/TorchManager.cpp\",\"jniImpl/RecognitionCoreDelegate.cpp\",\"jniImpl/TorchDelegate.cpp\"]}],\"fullName\":\"libcrossplatform.a\",\"linkerLanguage\":\"CXX\",\"name\":\"crossplatform\",\"sourceDirectory\":\"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform\",\"sysroot\":\"/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/build_output.txt",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86/build_command.txt",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "tag": "release|x86"
+  }
+]

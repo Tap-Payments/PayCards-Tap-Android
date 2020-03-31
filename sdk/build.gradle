@@ -16,7 +16,7 @@ android {
 
         externalNativeBuild {
             cmake {
-                abiFilters 'armeabi-v7a', "arm64-v8a", "x86",  "x86_64"
+                abiFilters 'armeabi-v7a', "arm64-v8a", "x86", "x86_64"
                 arguments '-DANDROID_STL=c++_shared'
             }
         }
@@ -56,6 +56,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support:support-v4:28.0.0'
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$rootProject.ext.espressoVersion"
     implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibVersion"
     implementation "com.facebook.device.yearclass:yearclass:$rootProject.ext.yearclassVersion"

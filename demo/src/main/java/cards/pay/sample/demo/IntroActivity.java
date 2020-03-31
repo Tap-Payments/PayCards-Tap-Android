@@ -4,46 +4,45 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
-public class IntroActivity extends AppCompatActivity {
+import cards.pay.paycardsrecognizer.sdk.Card;
+import cards.pay.paycardsrecognizer.sdk.ui.InlineViewCallback;
+import cards.pay.paycardsrecognizer.sdk.ui.InlineViewFragment;
+import cards.pay.paycardsrecognizer.sdk.ui.ScanCardActivity;
 
-    private Toolbar mToolbar;
+public class IntroActivity extends AppCompatActivity implements InlineViewCallback {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
-
-        mToolbar = findViewById(R.id.toolbar);
-        setupToolbar();
-
-        findViewById(R.id.button_next).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goToCardDetails();
-            }
-        });
-
     }
 
-    private void setupToolbar() {
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-
-        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                goToCardDetails();
-            }
-        });
+    public void openFullScreenScanner(View view) {
+        startActivity(new Intent(this, ScanCardActivity.class));
     }
 
-    private void goToCardDetails() {
-        Intent intent = new Intent(this, CardDetailsActivity.class);
-        startActivity(intent);
-        finish();
+    public void openInlineView(View view) {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.inline_container, new InlineViewFragment())
+                .commit();
     }
 
+    @Override
+    public void onScanCardCanceled() {
+        Toast.makeText(this, "Cancelled", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onScanCardFailed(Exception e) {
+        Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onScanCardFinished(Card card, byte[] cardImage) {
+        Toast.makeText(this, card.getCardNumber(), Toast.LENGTH_SHORT).show();
+    }
 }
