@@ -65,3 +65,6 @@
 -keep public class **.R$* {
   public *;
 }
+
+#Inline Fragment
+-keep public class * extends android.support.v4.app.Fragment

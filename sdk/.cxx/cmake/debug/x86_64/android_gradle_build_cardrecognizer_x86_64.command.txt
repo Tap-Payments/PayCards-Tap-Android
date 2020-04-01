@@ -1,0 +1,7 @@
+Executable : /Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/debug/x86_64
+cardrecognizer
+jvmArgs : 
+

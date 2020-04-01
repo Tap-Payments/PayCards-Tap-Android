@@ -80,3 +80,7 @@ bintray {
         }
     }
 }
+
+// Publish commands
+// ./gradlew install
+// ./gradlew bintrayUpload

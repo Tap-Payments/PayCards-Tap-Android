@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86'
+ninja: no work to do.
