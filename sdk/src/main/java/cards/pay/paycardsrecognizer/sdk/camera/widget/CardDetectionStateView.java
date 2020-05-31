@@ -10,6 +10,7 @@ import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.ColorInt;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -152,6 +153,14 @@ public class CardDetectionStateView extends View {
         mCornerBottomLeftDrawable = new BitmapDrawable(context.getResources(),
                 Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true));
 
+        initCornerColor(Color.YELLOW);
+    }
+
+    private void initCornerColor(@ColorInt int color) {
+        mCornerTopLeftDrawable.setTint(color);
+        mCornerTopRightDrawable.setTint(color);
+        mCornerBottomRightDrawable.setTint(color);
+        mCornerBottomLeftDrawable.setTint(color);
     }
 
     private void initLineDrawables(Context context) {
@@ -170,6 +179,15 @@ public class CardDetectionStateView extends View {
         m.setRotate(270);
         mLineLeftDrawable = new BitmapDrawable(context.getResources(),
                 Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true));
+
+        initLineColor(Color.YELLOW);
+    }
+
+    private void initLineColor(@ColorInt int color) {
+        mLineTopDrawable.setTint(color);
+        mLineRightDrawable.setTint(color);
+        mLineBottomDrawable.setTint(color);
+        mLineLeftDrawable.setTint(color);
     }
 
     @Override

@@ -40,14 +40,14 @@ CMAKE SERVER: {
     "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
     "-DANDROID_ABI\u003dx86_64",
     "-DANDROID_NDK\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570",
-    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DANDROID_PLATFORM\u003dandroid-21",
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
     "-DCMAKE_ANDROID_NDK\u003d/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/profiling/obj/x86_64",
     "-DCMAKE_MAKE_PROGRAM\u003d/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
-    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
     "-DANDROID_STL\u003dc++_shared",
     "-DCMAKE_BUILD_TYPE\u003dRelease"
   ]
