@@ -153,7 +153,7 @@ public class CardDetectionStateView extends View {
         m.setRotate(270);
         mCornerBottomLeftDrawable = new BitmapDrawable(context.getResources(),
                 Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true));
-
+        if(ThemeManager.getInstance().getFrameColor()!=0)
         initCornerColor(ThemeManager.getInstance().getFrameColor());
     }
 
@@ -180,7 +180,7 @@ public class CardDetectionStateView extends View {
         m.setRotate(270);
         mLineLeftDrawable = new BitmapDrawable(context.getResources(),
                 Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true));
-
+        if(ThemeManager.getInstance().getFrameColor()!=0)
         initLineColor(ThemeManager.getInstance().getFrameColor());
     }
 
