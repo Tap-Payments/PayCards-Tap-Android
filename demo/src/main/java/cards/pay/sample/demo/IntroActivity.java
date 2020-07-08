@@ -2,15 +2,15 @@ package cards.pay.sample.demo;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import cards.pay.paycardsrecognizer.FrameManager;
 import cards.pay.paycardsrecognizer.sdk.Card;
 import cards.pay.paycardsrecognizer.sdk.ScanCardIntent;
 import cards.pay.paycardsrecognizer.sdk.ui.InlineViewCallback;
@@ -22,9 +22,13 @@ public class IntroActivity extends AppCompatActivity implements InlineViewCallba
     private static final int REQUEST_CODE_SCAN_CARD = 101;
 
     @Override
+
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
+        //Set the frame color of your choice
+        FrameManager.getInstance().setFrameColor(Color.RED);
+
     }
 
     public void openFullScreenScanner(View view) {
