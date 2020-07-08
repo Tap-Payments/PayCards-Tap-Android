@@ -1,4 +1,4 @@
-package cards.pay.paycardsrecognizer;
+package cards.pay.paycardsrecognizer.sdk;
 
 /**
  * Created by AhlaamK on 6/1/20.
@@ -16,13 +16,13 @@ public class FrameManager {
 
     /**
      * Frame color
-     * @param frameColour
+     * @param frameColour is frame
      */
-    public int setFrameColor(int frameColour) {
+    public FrameManager setFrameColor(int frameColour) {
         this.frameColour = frameColour;
-        return frameColour;
+        return this;
     }
-
+/////////////////////////////////////////////////////////////////////
     /**
      * @return frame color
      */

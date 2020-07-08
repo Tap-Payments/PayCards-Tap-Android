@@ -1,4 +1,4 @@
-# Install script for directory: /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen
+# Install script for directory: /Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

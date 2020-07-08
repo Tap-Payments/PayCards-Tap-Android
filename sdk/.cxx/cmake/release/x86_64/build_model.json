@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64",
-    "cmakeServerLogFile": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cxx/release/x86_64",
+    "cmakeArtifactsBaseFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64",
+    "cmakeServerLogFile": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cxx/release/x86_64",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,9 +15,9 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64",
-      "cmakeToolchain": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
-      "cmakeExecutable": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "buildRoot": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64",
+      "cmakeToolchain": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake"
+          "value": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -33,7 +33,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570"
+          "value": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -45,7 +45,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570"
+          "value": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -53,11 +53,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/release/obj/x86_64"
+          "value": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/build/intermediates/cmake/release/obj/x86_64"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+          "value": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64",
+  "cxxBuildFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64",
   "info": {
     "abi": "X86_64",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64",
+  "originalCxxBuildFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64",
   "variant": {
     "buildSystemArgumentList": [
       "-DANDROID_STL\u003dc++_shared"
@@ -94,24 +94,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "cmakeExe": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        "ninjaExe": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
-      "cmakeToolchainFile": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx",
+      "cmakeToolchainFile": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx",
       "gradleModulePathName": ":sdk",
-      "intermediatesFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates",
-      "makeFile": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
-      "moduleBuildFile": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build.gradle",
-      "moduleRootFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk",
+      "intermediatesFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/build/intermediates",
+      "makeFile": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/CMakeLists.txt",
+      "moduleBuildFile": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/build.gradle",
+      "moduleRootFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570",
+      "ndkFolder": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -167,28 +167,28 @@
       ],
       "ndkVersion": "20.0.5594570",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/.cxx",
-        "cxxFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/.cxx",
+        "compilerSettingsCacheFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/.cxx",
+        "cxxFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android",
-        "sdkFolder": "/Users/m.gamal/Library/Android/sdk"
+        "rootBuildGradleFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android",
+        "sdkFolder": "/Users/a.kazi/Library/Android/sdk"
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/release/obj",
+    "objFolder": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/build/intermediates/cmake/release/obj",
     "variantName": "release",
     "validAbiList": [
       "ARMEABI_V7A",

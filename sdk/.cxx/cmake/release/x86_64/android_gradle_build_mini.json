@@ -1,55 +1,55 @@
 {
   "buildFiles": [
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse/cmake/Config.cmake.in",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/libyuv/CMakeLists.txt",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse/CMakeLists.txt",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig.cmake",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/CMakeLists.txt",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/crossplatform/CMakeLists.txt",
-    "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
-    "/Users/m.gamal/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86_64/OpenCVConfig.cmake",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86_64/OpenCVModules.cmake",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/eigen/CMakeLists.txt",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig-version.cmake",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86_64/OpenCVModules-release.cmake",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/caffe/CMakeLists.txt",
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/protobuf/CMakeLists.txt"
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/armneon2x86sse/cmake/Config.cmake.in",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/libyuv/CMakeLists.txt",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/CMakeLists.txt",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/crossplatform/CMakeLists.txt",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86_64/OpenCVConfig.cmake",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86_64/OpenCVModules.cmake",
+    "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/eigen/CMakeLists.txt",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/opencv2/sdk/native/jni/abi-x86_64/OpenCVModules-release.cmake",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/caffe/CMakeLists.txt",
+    "/Users/a.kazi/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/protobuf/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" clean"
+    "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" clean"
   ],
-  "buildTargetsCommand": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "cardrecognizer-Release-x86_64": {
       "artifactName": "cardrecognizer",
-      "buildCommand": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" cardrecognizer",
+      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" cardrecognizer",
       "abi": "x86_64",
-      "output": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/build/intermediates/cmake/release/obj/x86_64/libcardrecognizer.so"
+      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/build/intermediates/cmake/release/obj/x86_64/libcardrecognizer.so"
     },
     "libyuv-Release-x86_64": {
       "artifactName": "libyuv",
-      "buildCommand": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" libyuv",
+      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" libyuv",
       "abi": "x86_64",
-      "output": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/libyuv/liblibyuv.a"
+      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/libyuv/liblibyuv.a"
     },
     "caffe-Release-x86_64": {
       "artifactName": "caffe",
-      "buildCommand": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" caffe",
+      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" caffe",
       "abi": "x86_64",
-      "output": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/caffe/libcaffe.a"
+      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/caffe/libcaffe.a"
     },
     "crossplatform-Release-x86_64": {
       "artifactName": "crossplatform",
-      "buildCommand": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" crossplatform",
+      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" crossplatform",
       "abi": "x86_64",
-      "output": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/crossplatform/libcrossplatform.a"
+      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/crossplatform/libcrossplatform.a"
     },
     "protobuf-Release-x86_64": {
       "artifactName": "protobuf",
-      "buildCommand": "/Users/m.gamal/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64\" protobuf",
+      "buildCommand": "/Users/a.kazi/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64\" protobuf",
       "abi": "x86_64",
-      "output": "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/protobuf/libprotobuf.a"
+      "output": "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/protobuf/libprotobuf.a"
     }
   }
 }

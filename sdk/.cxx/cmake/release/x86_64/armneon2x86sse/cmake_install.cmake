@@ -1,4 +1,4 @@
-# Install script for directory: /Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse
+# Install script for directory: /Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/armneon2x86sse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/src/main/cpp/armneon2x86sse/NEON_2_SSE.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/src/main/cpp/armneon2x86sse/NEON_2_SSE.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE" TYPE FILE FILES
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/generated/NEON_2_SSEConfig.cmake"
-    "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/generated/NEON_2_SSEConfigVersion.cmake"
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/generated/NEON_2_SSEConfig.cmake"
+    "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/generated/NEON_2_SSEConfigVersion.cmake"
     )
 endif()
 
@@ -52,7 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake"
-         "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
+         "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE/NEON_2_SSETargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -61,6 +61,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE" TYPE FILE FILES "/Users/m.gamal/AndroidStudioProjects/PayCards-Tap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/NEON_2_SSE" TYPE FILE FILES "/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86_64/armneon2x86sse/CMakeFiles/Export/lib/cmake/NEON_2_SSE/NEON_2_SSETargets.cmake")
 endif()
 
