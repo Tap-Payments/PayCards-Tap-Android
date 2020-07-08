@@ -89,7 +89,7 @@ ext {
     siteUrl = 'https://github.com/Tap-Payments/PayCards-Tap-Android'    // git repo url
     gitUrl = 'https://github.com/Tap-Payments/PayCards-Tap-Android.git' // git repo vcs url
 
-    libraryVersion = '0.1.4'      // library version
+    libraryVersion = '0.1.5'      // library version
 
     developerId = 'mario-gamal'                // This is your bintray username
     developerName = 'Mario Gamal'              // Developer's name

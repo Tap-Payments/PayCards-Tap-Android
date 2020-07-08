@@ -18,9 +18,9 @@ public class FrameManager {
      * Frame color
      * @param frameColour
      */
-    public FrameManager setFrameColor(int frameColour) {
+    public int setFrameColor(int frameColour) {
         this.frameColour = frameColour;
-        return this;
+        return frameColour;
     }
 
     /**
