@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/a.kazi/Documents/TapProjects/TapKits2020/PayCardTap-Android/sdk/.cxx/cmake/release/x86'
+ninja: no work to do.
