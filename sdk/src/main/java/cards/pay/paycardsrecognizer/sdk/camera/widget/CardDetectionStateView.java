@@ -16,7 +16,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import cards.pay.paycardsrecognizer.ThemeManager;
+import cards.pay.paycardsrecognizer.FrameManager;
 import cards.pay.paycardsrecognizer.sdk.R;
 import cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants;
 import cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult;
@@ -153,8 +153,8 @@ public class CardDetectionStateView extends View {
         m.setRotate(270);
         mCornerBottomLeftDrawable = new BitmapDrawable(context.getResources(),
                 Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true));
-        if(ThemeManager.getInstance().getFrameColor()!=0)
-        initCornerColor(ThemeManager.getInstance().getFrameColor());
+        if(FrameManager.getInstance().getFrameColor()!=0)
+        initCornerColor(FrameManager.getInstance().getFrameColor());
     }
 
     private void initCornerColor(@ColorInt int color) {
@@ -180,8 +180,8 @@ public class CardDetectionStateView extends View {
         m.setRotate(270);
         mLineLeftDrawable = new BitmapDrawable(context.getResources(),
                 Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), m, true));
-        if(ThemeManager.getInstance().getFrameColor()!=0)
-        initLineColor(ThemeManager.getInstance().getFrameColor());
+        if(FrameManager.getInstance().getFrameColor()!=0)
+        initLineColor(FrameManager.getInstance().getFrameColor());
     }
 
     private void initLineColor(@ColorInt int color) {
