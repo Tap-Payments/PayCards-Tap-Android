@@ -6,7 +6,7 @@ package cards.pay.paycardsrecognizer;
  * Copyright (c) 2020    Tap Payments.
  * All rights reserved.
  **/
-public class ThemeManager {
+public class FrameManager {
 
     /**
      *  Frame Background
@@ -18,7 +18,7 @@ public class ThemeManager {
      * Frame color
      * @param frameColour
      */
-    public ThemeManager setFrameColor(int frameColour) {
+    public FrameManager setFrameColor(int frameColour) {
         this.frameColour = frameColour;
         return this;
     }
@@ -36,7 +36,7 @@ public class ThemeManager {
      *
      * @return ThemeManager
      */
-    public static ThemeManager getInstance() {
+    public static FrameManager getInstance() {
         return SingleInstanceAdmin.instance;
     }
 
@@ -45,7 +45,7 @@ public class ThemeManager {
         /**
          * The Instance.
          */
-        public final static ThemeManager instance = new ThemeManager();
+        public final static FrameManager instance = new FrameManager();
 
     }
 
