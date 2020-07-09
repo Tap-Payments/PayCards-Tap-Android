@@ -91,9 +91,9 @@ ext {
 
     libraryVersion = '0.1.5.3'      // library version
 
-    developerId = 'mario-gamal'                // This is your bintray username
-    developerName = 'Mario Gamal'              // Developer's name
-    developerEmail = 'm.gamal@tap.company'                // Developer's email
+    developerId = 'ahlaamk'                // This is your bintray username
+    developerName = 'Ahlaam K'              // Developer's name
+    developerEmail = 'a.kazi@tap.company'                // Developer's email
 
     licenseName = 'The Apache Software License, Version 2.0'  // for example, The Apache Software License, Version 2.0
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'   // for example, http://www.apache.org/licenses/LICENSE-2.0.txt
