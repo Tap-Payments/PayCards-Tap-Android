@@ -41,7 +41,6 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        this.callback = (InlineViewCallback) this;
         return inflater.inflate(R.layout.fragment_inline_view, container, false);
     }
 
