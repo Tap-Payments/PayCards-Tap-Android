@@ -27,17 +27,13 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
 
     }
 
-   /* @Override
+  /*  @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         callback = (InlineViewCallback) context;
-    }*/
-
-    @Override
-    public void onAttachFragment(Fragment childFragment) {
-        super.onAttachFragment(childFragment);
-        callback = (InlineViewCallback) childFragment;
     }
+    */
+
 
     public void setInLineViewListener(InlineViewCallback callback) {
         this.callback = callback;
@@ -45,6 +41,7 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        this.callback = (InlineViewCallback) this;
         return inflater.inflate(R.layout.fragment_inline_view, container, false);
     }
 
@@ -64,6 +61,7 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
                     showScanCard();
                 }
             }
+            setCallBackListener(callback);
         }
     }
 
