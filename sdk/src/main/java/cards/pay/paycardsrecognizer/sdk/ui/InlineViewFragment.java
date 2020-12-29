@@ -25,10 +25,13 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
 
     public InlineViewFragment() {}
 
-    @Override
+   /* @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         callback = (InlineViewCallback) context;
+    }*/
+    public void setInLineViewListener(InlineViewCallback callback) {
+        this.callback = callback;
     }
 
     @Override
