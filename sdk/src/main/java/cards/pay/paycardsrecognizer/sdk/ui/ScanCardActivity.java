@@ -106,6 +106,11 @@ public class ScanCardActivity extends AppCompatActivity implements ScanCardFragm
         showScanCard();
     }
 
+    @Override
+    public void setCallBackListener(InlineViewCallback callback) {
+
+    }
+
     private ScanCardRequest getScanRequest() {
         ScanCardRequest request = getIntent().getParcelableExtra(ScanCardIntent.KEY_SCAN_CARD_REQUEST);
         if (request == null) {
