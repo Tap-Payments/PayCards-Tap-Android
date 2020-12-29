@@ -23,8 +23,8 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
     private InlineViewCallback callback;
     private static final String TAG = "ScanInlineView";
 
-    public InlineViewFragment(InlineViewCallback callback) {
-        this.callback = callback;
+    public InlineViewFragment() {
+
     }
 
    /* @Override
@@ -85,6 +85,11 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
     @Override
     public void onInitLibraryComplete() {
         showScanCard();
+    }
+
+    @Override
+    public void setCallBackListener(InlineViewCallback callback) {
+        this.callback = callback;
     }
 
     @Override

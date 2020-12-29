@@ -141,6 +141,7 @@ public final class InitLibraryFragment extends Fragment {
         void onScanCardCanceled(@ScanCardIntent.CancelReason int actionId);
         void onInitLibraryFailed(Throwable e);
         void onInitLibraryComplete();
+        void setCallBackListener(InlineViewCallback callback);
     }
 
     private static class DeployCoreTask extends AsyncTask<Void, Void, Throwable> {
