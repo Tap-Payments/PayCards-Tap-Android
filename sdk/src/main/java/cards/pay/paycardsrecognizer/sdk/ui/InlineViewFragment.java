@@ -23,7 +23,9 @@ public class InlineViewFragment extends Fragment implements ScanCardFragment.Int
     private InlineViewCallback callback;
     private static final String TAG = "ScanInlineView";
 
-    public InlineViewFragment() {}
+    public InlineViewFragment(InlineViewCallback callback) {
+        this.callback = callback;
+    }
 
    /* @Override
     public void onAttach(Context context) {
