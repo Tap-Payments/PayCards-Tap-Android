@@ -21,6 +21,7 @@ public class ScanCardActivity extends AppCompatActivity implements ScanCardFragm
         InitLibraryFragment.InteractionListener {
 
     private static final String TAG = "ScanCardActivity";
+    private InlineViewCallback callback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +73,7 @@ public class ScanCardActivity extends AppCompatActivity implements ScanCardFragm
         Log.e(TAG, "Scan card failed", new RuntimeException("onScanCardFinishedWithError()", e));
         setResult(ScanCardIntent.RESULT_CODE_ERROR);
         finish();
+        callback.onScanCardFailed(e);
     }
 
     @Override
@@ -82,6 +84,7 @@ public class ScanCardActivity extends AppCompatActivity implements ScanCardFragm
         if (cardImage != null) intent.putExtra(ScanCardIntent.RESULT_CARD_IMAGE, cardImage);
         setResult(RESULT_OK, intent);
         finish();
+        callback.onScanCardFinished(card,cardImage);
     }
 
     @Override
@@ -97,6 +100,7 @@ public class ScanCardActivity extends AppCompatActivity implements ScanCardFragm
         intent.putExtra(ScanCardIntent.RESULT_CANCEL_REASON, actionId);
         setResult(RESULT_CANCELED, intent);
         finish();
+        callback.onScanCardCanceled();
     }
 
     @Override
@@ -108,7 +112,7 @@ public class ScanCardActivity extends AppCompatActivity implements ScanCardFragm
 
     @Override
     public void setCallBackListener(InlineViewCallback callback) {
-
+this.callback =callback;
     }
 
     private ScanCardRequest getScanRequest() {
